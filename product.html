@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distributor Produk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            margin: 0;
+            padding: 25px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1B263B;
+            margin-bottom: 25px;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 18px;
+            width: 220px;
+            text-align: center;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+
+        .card h4 {
+            color: #1B263B;
+            min-height: 40px;
+        }
+
+        .harga {
+            color: #e91e63;
+            font-weight: bold;
+            margin: 8px 0;
+        }
+
+        .distributor {
+            background: #fff0f5;
+            padding: 10px;
+            border-radius: 6px;
+            margin: 12px 0;
+            color: #555;
+        }
+
+        .btn {
+            display: block;
+            background-color: #1B263B;
+            color: white;
+            text-decoration: none;
+            padding: 9px 12px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #334e68;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Products</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="images.jpg" alt="Dry Food">
+            <h4>Dry Food</h4>
+            <p class="harga">Rp 50.000</p>
+            <a class="btn" href="#">Beli</a>
+        </div>
+
+        <div class="card">
+            <img src="basah.jpg" alt="Wet Food">
+            <h4>Wet Food</h4>
+            <p class="harga">Rp 67.000</p>
+            <a class="btn" href="#">Beli</a>
+        </div>
+
+        <div class="card">
+            <img src="vit.jpg" alt="Vitamin ABC">
+            <h4>Vitamin ABC</h4>
+            <p class="harga">Rp 200.000</p>
+            <a class="btn" href="#">Beli</a>
+        </div>
+
+        <div class="card">
+            <img src="obatkutu.jpg" alt="Obat Kutu Tablet">
+            <h4>Obat Kutu Tablet</h4>
+            <p class="harga">Rp 180.000</p>
+            <a class="btn" href="#">Beli</a>
+        </div>
+
+        <div class="card">
+            <img src="bulutongkat.jpg" alt="Mainan Bulu Tongkat">
+            <h4>Mainan Bulu Tongkat</h4>
+            <p class="harga">Rp 110.000</p>
+            <a class="btn" href="#">Beli</a>
+        </div>
+
+        <div class="card">
+            <img src="mouse.jpg" alt="Mainan Tikus">
+            <h4>Mainan Tikus</h4>
+            <p class="harga">Rp 135.000</p>
+            <a class="btn" href="#">Beli</a>
+        </div>
+
+        <div class="card">
+            <img src="bola.jpg" alt="Mainan Bola">
+            <h4>Mainan Bola</h4>
+            <p class="harga">Rp 233.000</p>
+            <a class="btn" href="#">Beli</a>
+        </div>
+
+        <div class="card">
+            <img src="paket.jpg" alt="Paket Mainan">
+            <h4>Paket Mainan Bola, Tikus, dan Tongkat Bulu</h4>
+            <p class="harga">Rp 567.000</p>
+            <a class="btn" href="#">Beli</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
